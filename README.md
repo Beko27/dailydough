@@ -1,4 +1,4 @@
-# Dailydough.co E-Commerce Thesis Project
+# DailyDough.co E-Commerce Thesis Project
 
 A modern, responsive full-stack e-commerce prototype for a Filipino local cookie startup. It includes a customer storefront, cart, checkout, order tracking, and an admin dashboard for products, orders, analytics, and business settings.
 

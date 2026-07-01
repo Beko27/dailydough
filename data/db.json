@@ -9,8 +9,8 @@
   "admins": [
     {
       "id": 1,
-      "username": "admin",
-      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "username": "dailydough",
+      "password_hash": "6fb52a72788e76a98a9f8f57e0d0b427e0c4ff3ae05c284199eadf00ba190633",
       "created_at": "2026-07-01T05:48:27.164Z"
     }
   ],
@@ -204,7 +204,7 @@
   "inquiries": [],
   "business_settings": {
     "id": 1,
-    "business_name": "Dailydough.co",
+    "business_name": "DailyDough.co",
     "logo_url": "/uploads/1782913531358-790134952.jpg",
     "primary_color": "#8b4a2f",
     "accent_color": "#f4a261",
@@ -218,8 +218,8 @@
     "cancellation_policy": "Orders may be cancelled before confirmation. Confirmed custom box orders cannot be cancelled once preparation begins.",
     "return_policy": "Due to food safety, returns are not accepted. Please message us right away for order concerns.",
     "facebook_url": "https://www.facebook.com/profile.php?id=61559061825740",
-    "instagram_url": "https://www.instagram.com/Dailydoughcafe",
-    "tiktok_url": "https://www.tiktok.com/@dailydoughcafe",
+    "instagram_url": "https://www.instagram.com/DailyDoughcafe",
+    "tiktok_url": "https://www.tiktok.com/@DailyDoughcafe",
     "updated_at": "2026-07-01T14:49:51.677Z",
     "gcash_qr": "",
     "logo": ""

@@ -1,7 +1,7 @@
 import { api, peso, readImage } from '../api.js'; import { getCart, clearCart, loadSettings, nav } from '../store.js';
 const settings = await loadSettings(); nav(); const cart=getCart(); const summary=document.querySelector('#summary');
 summary.innerHTML = cart.map(i=>'<p>'+i.quantity+' x '+i.name+' <strong>'+peso(i.quantity*i.price)+'</strong></p>').join('') + '<hr><p>Total <strong>'+peso(cart.reduce((s,i)=>s+i.price*i.quantity,0))+'</strong></p><small>Choose a box of 3, 6, or 12 during checkout. Use the notes field to tell us which flavors you want in the box.</small><br><small>Delivery via Lalamove. Delivery fee will be manually computed after confirmation.</small>';
-document.querySelector('#gcashInfo').innerHTML = '<strong>GCash number: '+settings.gcash_number+'</strong><img src="'+settings.gcash_qr_url+'" alt="GCash QR placeholder"><p>For bank transfer via InstaPay or credit card, Dailydough.co will send the payment instructions after order confirmation.</p>';
+document.querySelector('#gcashInfo').innerHTML = '<strong>GCash number: '+settings.gcash_number+'</strong><img src="'+settings.gcash_qr_url+'" alt="GCash QR placeholder"><p>For bank transfer via InstaPay or credit card, DailyDough.co will send the payment instructions after order confirmation.</p>';
 document.querySelectorAll('[data-facebook-url]').forEach(el => el.href = settings.facebook_url);
 document.querySelectorAll('[data-instagram-url]').forEach(el => el.href = settings.instagram_url);
 document.querySelectorAll('input[name="payment_method"]').forEach(r => r.onchange = () => document.querySelector('#gcashBox').hidden = !['GCash','Bank Transfer (InstaPay)','Credit Card'].includes(r.value));
