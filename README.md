@@ -18,11 +18,6 @@ npm start
 
 Open: http://127.0.0.1:8000
 
-## Admin Login
-
-- Username: `admin`
-- Password: `admin123`
-
 ## Included Features
 
 Customer side:
