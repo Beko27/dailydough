@@ -1,0 +1,5 @@
+import { api, peso } from '../api.js'; import { addToCart, loadSettings, nav } from '../store.js';
+await loadSettings(); nav();
+const id = new URLSearchParams(location.search).get('id'); const product = await api('/api/products/'+id); const box = document.querySelector('#productDetail');
+box.innerHTML = '<img class="detail-img" src="'+product.image_url+'" alt="'+product.name+'"><section><span class="eyebrow">'+product.category+'</span><h1>'+product.name+'</h1><p>'+product.description+'</p><h3>Ingredients</h3><p>'+product.ingredients+'</p><strong class="price">'+peso(product.price)+'</strong><label style="margin-right: 16px;">Quantity <input id="qty" type="number" min="1" value="1" style="margin-left: 12px;"></label><button class="btn wide" id="add" style="margin-top: 16px;">Add to cart</button></section>';
+document.querySelector('#add').onclick = () => { addToCart(product, Number(document.querySelector('#qty').value || 1)); document.querySelector('#add').textContent = 'Added to cart'; };

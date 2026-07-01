@@ -1,0 +1,1 @@
+{"scripts":{"start":"node server.js"},"dependencies":{"multer":"^2.2.0"},"name":"cookie-shop-thesis","version":"1.0.0","description":"Small local cookie business e-commerce thesis project","main":"server.js"}

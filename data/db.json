@@ -1,0 +1,227 @@
+{
+  "nextIds": {
+    "products": 13,
+    "orders": 7,
+    "order_items": 11,
+    "admins": 2,
+    "inquiries": 1
+  },
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "created_at": "2026-07-01T05:48:27.164Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Chip Cookie",
+      "category": "Classic",
+      "description": "A golden, chewy classic loaded with melty chocolate chips and just the right buttery finish. The kind of cookie that tastes like merienda at home.",
+      "ingredients": "Flour, butter, brown sugar, eggs, chocolate chips, vanilla, salt",
+      "price": 55,
+      "image_url": "/uploads/ChocoChip.png",
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:53:15.667Z"
+    },
+    {
+      "id": 2,
+      "name": "Biscoff Cookie",
+      "category": "Special",
+      "description": "A soft cookie with caramelized Biscoff flavor, cookie butter richness, and a cozy spiced crunch in every bite.",
+      "ingredients": "Flour, butter, brown sugar, eggs, Biscoff spread, Biscoff crumbs, vanilla",
+      "price": 55,
+      "image_url": "/uploads/Biscoff.png",
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T06:24:08.222Z"
+    },
+    {
+      "id": 3,
+      "name": "Red Velvet Cookie",
+      "category": "Special",
+      "description": "Velvety cocoa cookie with a soft red crumb and creamy white chocolate notes for a sweet, bakery-style treat.",
+      "ingredients": "Flour, cocoa, butter, eggs, sugar, white chocolate, vanilla",
+      "price": 55,
+      "image_url": "/uploads/redvelvet.png",
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 4,
+      "name": "Oatmeal Walnut Cookie",
+      "category": "Nutty",
+      "description": "Chewy oats, toasted walnuts, and warm brown sugar flavor for a comforting cookie that feels homemade and hearty.",
+      "ingredients": "Rolled oats, flour, butter, walnuts, brown sugar, eggs, cinnamon",
+      "price": 55,
+      "image_url": "/uploads/oatmealwalnut.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 5,
+      "name": "White Chocolate Cookie",
+      "category": "Classic",
+      "description": "A soft vanilla cookie folded with creamy white chocolate chunks for a smooth, sweet, melt-in-your-mouth bite.",
+      "ingredients": "Flour, butter, eggs, sugar, white chocolate, vanilla, salt",
+      "price": 55,
+      "image_url": "/uploads/WhiteChoco.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 6,
+      "name": "Dark Chocolate Cookie",
+      "category": "Chocolate",
+      "description": "Deep cocoa flavor with dark chocolate pieces for customers who like their cookies rich, bold, and not too sweet.",
+      "ingredients": "Flour, cocoa, butter, eggs, dark chocolate, sugar, vanilla",
+      "price": 55,
+      "image_url": "/uploads/darkchoco.png",
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 7,
+      "name": "Coffee Crumble",
+      "category": "Special",
+      "description": "Coffee-kissed cookie topped with a sweet crumble finish, made for cafe lovers and late-night snack cravings.",
+      "ingredients": "Flour, butter, eggs, coffee, brown sugar, crumble topping, vanilla",
+      "price": 60,
+      "image_url": "/uploads/CoffeeCrumble.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 8,
+      "name": "Reese's Peanut Butter Cookie",
+      "category": "Nutty",
+      "description": "Peanut butter cookie packed with chocolatey Reese-inspired goodness, creamy nuttiness, and a soft chewy center.",
+      "ingredients": "Flour, peanut butter, butter, eggs, chocolate, peanuts, sugar",
+      "price": 60,
+      "image_url": "/uploads/reeses-peanut-butter.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 9,
+      "name": "Matcha Cookie",
+      "category": "Special",
+      "description": "Earthy matcha balanced with creamy sweetness, soft texture, and a gentle tea aroma in every bite.",
+      "ingredients": "Flour, matcha powder, butter, eggs, sugar, white chocolate",
+      "price": 60,
+      "image_url": "/uploads/whitechocolatematcha.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 10,
+      "name": "Oreo Cookie",
+      "category": "Chocolate",
+      "description": "Cookies-and-cream cookie with crushed Oreo bits, a soft center, and playful crunch from edge to edge.",
+      "ingredients": "Flour, butter, eggs, cocoa, Oreo crumbs, sugar, vanilla",
+      "price": 60,
+      "image_url": "/uploads/CookieMonster.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 11,
+      "name": "Dubai Chewy Cookie",
+      "category": "Premium",
+      "description": "A premium chewy cookie inspired by rich pistachio-knafeh flavors, chocolatey luxury, and a gooey dessert-style bite.",
+      "ingredients": "Flour, butter, eggs, chocolate, pistachio cream, toasted pastry, sugar",
+      "price": 105,
+      "image_url": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20300%20220%22%3E%3Crect%20width%3D%22300%22%20height%3D%22220%22%20rx%3D%2224%22%20fill%3D%22%23fff3df%22%2F%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%22108%22%20r%3D%2262%22%20fill%3D%22%238b4a2f%22%2F%3E%3Ccircle%20cx%3D%22130%22%20cy%3D%2284%22%20r%3D%228%22%20fill%3D%22%233a2117%22%2F%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%22126%22%20r%3D%227%22%20fill%3D%22%233a2117%22%2F%3E%3Ccircle%20cx%3D%22124%22%20cy%3D%22137%22%20r%3D%226%22%20fill%3D%22%233a2117%22%2F%3E%3Cpath%20d%3D%22M184%2075h54v54h-54zM197%2088v28h28V88zM184%20145h54v28h-54z%22%20fill%3D%22%238b4a2f%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22202%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20fill%3D%22%238b4a2f%22%20font-family%3D%22Arial%22%3ECookie%20placeholder%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    },
+    {
+      "id": 12,
+      "name": "S'mores Cookie",
+      "category": "Classic",
+      "description": "A campfire-style cookie with chocolate, marshmallow, and graham flavor baked into one soft, gooey treat.",
+      "ingredients": "Flour, butter, eggs, chocolate, marshmallow, graham crumbs, sugar",
+      "price": 55,
+      "image_url": "/uploads/smores.png",
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-07-01T05:48:27.164Z",
+      "updated_at": "2026-07-01T05:48:27.164Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 6,
+      "order_number": "CC-20260701-098DE5",
+      "customer_name": "Test order",
+      "contact_number": "09939939932",
+      "email": "",
+      "delivery_address": "SM Marikina, Marcos Highway, Industrial Valley, District I, Marikina, Eastern Manila District, Metro Manila, 1802, Philippines",
+      "notes": "No special instructions.",
+      "payment_method": "COD",
+      "payment_proof_url": "",
+      "status": "Out for Delivery",
+      "subtotal": 55,
+      "delivery_note": "Delivery fee will be manually computed and communicated after order confirmation.",
+      "created_at": "2026-07-01T16:10:48.340Z",
+      "updated_at": "2026-07-01T16:12:56.842Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 10,
+      "order_id": 6,
+      "product_id": 2,
+      "product_name": "Biscoff Cookie",
+      "unit_price": 55,
+      "quantity": 1,
+      "line_total": 55
+    }
+  ],
+  "inquiries": [],
+  "business_settings": {
+    "id": 1,
+    "business_name": "Dailydough.co",
+    "logo_url": "/uploads/1782913531358-790134952.jpg",
+    "primary_color": "#8b4a2f",
+    "accent_color": "#f4a261",
+    "contact_number": "09XX-XXX-XXXX",
+    "email": " reyesgeorgee@gmail.com",
+    "address": "1221 B. Soliven Avenue, Antipolo, Rizal, Philippines",
+    "gcash_number": "09XX-XXX-XXXX",
+    "gcash_qr_url": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20300%20220%22%3E%3Crect%20width%3D%22300%22%20height%3D%22220%22%20rx%3D%2224%22%20fill%3D%22%23fff3df%22%2F%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%22108%22%20r%3D%2262%22%20fill%3D%22%238b4a2f%22%2F%3E%3Ccircle%20cx%3D%22130%22%20cy%3D%2284%22%20r%3D%228%22%20fill%3D%22%233a2117%22%2F%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%22126%22%20r%3D%227%22%20fill%3D%22%233a2117%22%2F%3E%3Ccircle%20cx%3D%22124%22%20cy%3D%22137%22%20r%3D%226%22%20fill%3D%22%233a2117%22%2F%3E%3Cpath%20d%3D%22M184%2075h54v54h-54zM197%2088v28h28V88zM184%20145h54v28h-54z%22%20fill%3D%22%238b4a2f%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22202%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20fill%3D%22%238b4a2f%22%20font-family%3D%22Arial%22%3ECookie%20placeholder%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "business_hours": "Monday to Saturday, 9:00 AM - 6:00 PM",
+    "preparation_time": "Orders are baked fresh and prepared within 1 to 2 business days.",
+    "cancellation_policy": "Orders may be cancelled before confirmation. Confirmed custom box orders cannot be cancelled once preparation begins.",
+    "return_policy": "Due to food safety, returns are not accepted. Please message us right away for order concerns.",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61559061825740",
+    "instagram_url": "https://www.instagram.com/Dailydoughcafe",
+    "tiktok_url": "https://www.tiktok.com/@dailydoughcafe",
+    "updated_at": "2026-07-01T14:49:51.677Z",
+    "gcash_qr": "",
+    "logo": ""
+  }
+}
